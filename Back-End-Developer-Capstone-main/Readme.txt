@@ -1,19 +1,16 @@
-Hello, Reviewers!
 
-You can run available unittests from VS terminal using command: python manage.py test tests/
-Don't forget to activate vitruan env and cd into littlelemon directory before running unit-tests command.
 
-# This path can be used to check that web application serves static HTML content with images and styles
+# check that web app serves static HTML content
 /restaurant
 
-You can use the following API paths for testing purposes using Insomnia or Postman clients
-OR just browse using your favorite browser.
+API paths for testing purposes using Insomnia or Postman clients
 
-# JDOSER endpoint, for example, to make POST request and create new user
+# JDOSER endpoint to make POST request and create new user
 /auth/users/ 
 
-# to login and auth get token
+# to login and get token
 /api-token-auth/ 
+
 # to login using JDOSER endpoint
 /auth/token/login 
 
